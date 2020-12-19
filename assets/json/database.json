@@ -1,0 +1,631 @@
+[{
+    "id": 1,
+    "nombre": "Calzado Bebé 01",
+    "precio": 3991,
+    "stock": 93,
+    "img": "../assets/img/Productos/calzadoBebes/1.jpg",
+    "initial": 1
+  }, {
+    "id": 2,
+    "nombre": "Calzado Bebé 02",
+    "precio": 3605,
+    "stock": 14,
+    "img": "../assets/img/Productos/calzadoBebes/2.jpg",
+    "initial": 1
+  }, {
+    "id": 3,
+    "nombre": "Calzado Bebé 03",
+    "precio": 3706,
+    "stock": 82,
+    "img": "../assets/img/Productos/calzadoBebes/3.jpg",
+    "initial": 1
+  }, {
+    "id": 4,
+    "nombre": "Calzado Bebé 04",
+    "precio": 3790,
+    "stock": 98,
+    "img": "../assets/img/Productos/calzadoBebes/4.jpg",
+    "initial": 1
+  }, {
+    "id": 5,
+    "nombre": "Calzado Bebé 05",
+    "precio": 3745,
+    "stock": 60,
+    "img": "../assets/img/Productos/calzadoBebes/5.jpg",
+    "initial": 1
+  }, {
+    "id": 6,
+    "nombre": "Calzado Bebé 06",
+    "precio": 3650,
+    "stock": 95,
+    "img": "../assets/img/Productos/calzadoBebes/6.jpg",
+    "initial": 1
+  }, {
+    "id": 7,
+    "nombre": "Calzado Bebé 07",
+    "precio": 2577,
+    "stock": 51,
+    "img": "../assets/img/Productos/calzadoBebes/7.jpg",
+    "initial": 1
+  }, {
+    "id": 8,
+    "nombre": "Calzado Bebé 08",
+    "precio": 2841,
+    "stock": 98,
+    "img": "../assets/img/Productos/calzadoBebes/8.jpg",
+    "initial": 1
+  }, {
+    "id": 9,
+    "nombre": "Calzado Bebé 09",
+    "precio": 3478,
+    "stock": 32,
+    "img": "../assets/img/Productos/calzadoBebes/9.jpg",
+    "initial": 1
+  }, {
+    "id": 10,
+    "nombre": "Calzado Bebé 10",
+    "precio": 3184,
+    "stock": 54,
+    "img": "../assets/img/Productos/calzadoBebes/10.jpg",
+    "initial": 1
+  }, {
+    "id": 11,
+    "nombre": "Calzado Bebé 11",
+    "precio": 2852,
+    "stock": 21,
+    "img": "../assets/img/Productos/calzadoBebes/11.jpg",
+    "initial": 1
+  }, {
+    "id": 12,
+    "nombre": "Calzado Bebé 12",
+    "precio": 3592,
+    "stock": 98,
+    "img": "../assets/img/Productos/calzadoBebes/12.jpg",
+    "initial": 1
+  }, {
+    "id": 13,
+    "nombre": "Calzado Bebé 13",
+    "precio": 3523,
+    "stock": 79,
+    "img": "../assets/img/Productos/calzadoBebes/13.jpg",
+    "initial": 1
+  }, {
+    "id": 14,
+    "nombre": "Calzado Bebé 14",
+    "precio": 3089,
+    "stock": 61,
+    "img": "../assets/img/Productos/calzadoBebes/14.jpg",
+    "initial": 1
+  }, {
+    "id": 15,
+    "nombre": "Calzado Bebé 15",
+    "precio": 2594,
+    "stock": 89,
+    "img": "../assets/img/Productos/calzadoBebes/15.jpg",
+    "initial": 1
+  }, {
+    "id": 16,
+    "nombre": "Calzado Bebé 16",
+    "precio": 3098,
+    "stock": 50,
+    "img": "../assets/img/Productos/calzadoBebes/16.jpg",
+    "initial": 1
+  }, {
+    "id": 17,
+    "nombre": "Calzado Niña 01",
+    "precio": 3752,
+    "stock": 56,
+    "img": "../assets/img/Productos/calzadoNinas/17.jpg",
+    "initial": 1
+  }, {
+    "id": 18,
+    "nombre": "Calzado Niña 02",
+    "precio": 2747,
+    "stock": 29,
+    "img": "../assets/img/Productos/calzadoNinas/18.jpg",
+    "initial": 1
+  }, {
+    "id": 19,
+    "nombre": "Calzado Niña 03",
+    "precio": 3000,
+    "stock": 41,
+    "img": "../assets/img/Productos/calzadoNinas/19.jpg",
+    "initial": 1
+  }, {
+    "id": 20,
+    "nombre": "Calzado Niña 04",
+    "precio": 3579,
+    "stock": 11,
+    "img": "../assets/img/Productos/calzadoNinas/20.jpg",
+    "initial": 1
+  }, {
+    "id": 21,
+    "nombre": "Calzado Niña 05",
+    "precio": 3012,
+    "stock": 45,
+    "img": "../assets/img/Productos/calzadoNinas/21.jpg",
+    "initial": 1
+  }, {
+    "id": 22,
+    "nombre": "Calzado Niña 06",
+    "precio": 3567,
+    "stock": 4,
+    "img": "../assets/img/Productos/calzadoNinas/22.jpg",
+    "initial": 1
+  }, {
+    "id": 23,
+    "nombre": "Calzado Niña 07",
+    "precio": 3021,
+    "stock": 89,
+    "img": "../assets/img/Productos/calzadoNinas/23.jpg",
+    "initial": 1
+  }, {
+    "id": 24,
+    "nombre": "Calzado Niña 08",
+    "precio": 2967,
+    "stock": 3,
+    "img": "../assets/img/Productos/calzadoNinas/24.jpg",
+    "initial": 1
+  }, {
+    "id": 25,
+    "nombre": "Calzado Niña 09",
+    "precio": 3389,
+    "stock": 81,
+    "img": "../assets/img/Productos/calzadoNinas/25.jpg",
+    "initial": 1
+  }, {
+    "id": 26,
+    "nombre": "Calzado Niña 10",
+    "precio": 3884,
+    "stock": 36,
+    "img": "../assets/img/Productos/calzadoNinas/26.jpg",
+    "initial": 1
+  }, {
+    "id": 27,
+    "nombre": "Calzado Niña 11",
+    "precio": 3857,
+    "stock": 9,
+    "img": "../assets/img/Productos/calzadoNinas/27.jpg",
+    "initial": 1
+  }, {
+    "id": 28,
+    "nombre": "Calzado Niña 12",
+    "precio": 3419,
+    "stock": 99,
+    "img": "../assets/img/Productos/calzadoNinas/28.jpg",
+    "initial": 1
+  }, {
+    "id": 29,
+    "nombre": "Calzado Niña 13",
+    "precio": 2630,
+    "stock": 26,
+    "img": "../assets/img/Productos/calzadoNinas/29.jpg",
+    "initial": 1
+  }, {
+    "id": 30,
+    "nombre": "Calzado Niña 14",
+    "precio": 2974,
+    "stock": 91,
+    "img": "../assets/img/Productos/calzadoNinas/30.jpg",
+    "initial": 1
+  }, {
+    "id": 31,
+    "nombre": "Calzado Niña 15",
+    "precio": 2696,
+    "stock": 37,
+    "img": "../assets/img/Productos/calzadoNinas/31.jpg",
+    "initial": 1
+  }, {
+    "id": 32,
+    "nombre": "Calzado Niña 16",
+    "precio": 3675,
+    "stock": 49,
+    "img": "../assets/img/Productos/calzadoNinas/32.jpg",
+    "initial": 1
+  }, {
+    "id": 33,
+    "nombre": "Calzado Niña 17",
+    "precio": 3697,
+    "stock": 93,
+    "img": "../assets/img/Productos/calzadoNinas/33.jpg",
+    "initial": 1
+  }, {
+    "id": 34,
+    "nombre": "Calzado Niña 18",
+    "precio": 2655,
+    "stock": 81,
+    "img": "../assets/img/Productos/calzadoNinas/34.jpg",
+    "initial": 1
+  }, {
+    "id": 35,
+    "nombre": "Calzado Niña 19",
+    "precio": 3235,
+    "stock": 7,
+    "img": "../assets/img/Productos/calzadoNinas/35.jpg",
+    "initial": 1
+  }, {
+    "id": 36,
+    "nombre": "Calzado Niña 20",
+    "precio": 2821,
+    "stock": 35,
+    "img": "../assets/img/Productos/calzadoNinas/36.jpg",
+    "initial": 1
+  }, {
+    "id": 37,
+    "nombre": "Calzado Niña 21",
+    "precio": 2527,
+    "stock": 43,
+    "img": "../assets/img/Productos/calzadoNinas/37.jpg",
+    "initial": 1
+  }, {
+    "id": 38,
+    "nombre": "Calzado Niña 22",
+    "precio": 3910,
+    "stock": 35,
+    "img": "../assets/img/Productos/calzadoNinas/38.jpg",
+    "initial": 1
+  }, {
+    "id": 39,
+    "nombre": "Calzado Niña 23",
+    "precio": 2995,
+    "stock": 2,
+    "img": "../assets/img/Productos/calzadoNinas/39.jpg",
+    "initial": 1
+  }, {
+    "id": 40,
+    "nombre": "Calzado Niña 24",
+    "precio": 3567,
+    "stock": 82,
+    "img": "../assets/img/Productos/calzadoNinas/40.jpg",
+    "initial": 1
+  }, {
+    "id": 41,
+    "nombre": "Calzado Niña 25",
+    "precio": 3179,
+    "stock": 88,
+    "img": "../assets/img/Productos/calzadoNinas/41.jpg",
+    "initial": 1
+  }, {
+    "id": 42,
+    "nombre": "Calzado Niña 26",
+    "precio": 2635,
+    "stock": 86,
+    "img": "../assets/img/Productos/calzadoNinas/42.jpg",
+    "initial": 1
+  }, {
+    "id": 43,
+    "nombre": "Calzado Niña 27",
+    "precio": 3607,
+    "stock": 2,
+    "img": "../assets/img/Productos/calzadoNinas/43.jpg",
+    "initial": 1
+  }, {
+    "id": 44,
+    "nombre": "Calzado Niña 28",
+    "precio": 3859,
+    "stock": 15,
+    "img": "../assets/img/Productos/calzadoNinas/44.jpg",
+    "initial": 1
+  }, {
+    "id": 45,
+    "nombre": "Calzado Niña 29",
+    "precio": 3645,
+    "stock": 23,
+    "img": "../assets/img/Productos/calzadoNinas/45.jpg",
+    "initial": 1
+  }, {
+    "id": 46,
+    "nombre": "Calzado Niña 30",
+    "precio": 3546,
+    "stock": 44,
+    "img": "../assets/img/Productos/calzadoNinas/46.jpg",
+    "initial": 1
+  }, {
+    "id": 47,
+    "nombre": "Calzado Niña 31",
+    "precio": 3486,
+    "stock": 20,
+    "img": "../assets/img/Productos/calzadoNinas/47.jpg",
+    "initial": 1
+  }, {
+    "id": 48,
+    "nombre": "Calzado Niña 32",
+    "precio": 2700,
+    "stock": 45,
+    "img": "../assets/img/Productos/calzadoNinas/48.jpg",
+    "initial": 1
+  }, {
+    "id": 49,
+    "nombre": "Calzado Niña 33",
+    "precio": 3669,
+    "stock": 36,
+    "img": "../assets/img/Productos/calzadoNinas/49.jpg",
+    "initial": 1
+  }, {
+    "id": 50,
+    "nombre": "Calzado Niña 34",
+    "precio": 2914,
+    "stock": 22,
+    "img": "../assets/img/Productos/calzadoNinas/50.jpg",
+    "initial": 1
+  }, {
+    "id": 51,
+    "nombre": "Calzado Niña 35",
+    "precio": 3146,
+    "stock": 1,
+    "img": "../assets/img/Productos/calzadoNinas/51.jpg",
+    "initial": 1
+  }, {
+    "id": 52,
+    "nombre": "Calzado Niña 36",
+    "precio": 3942,
+    "stock": 9,
+    "img": "../assets/img/Productos/calzadoNinas/52.jpg",
+    "initial": 1
+  }, {
+    "id": 53,
+    "nombre": "Calzado Niña 37",
+    "precio": 2928,
+    "stock": 43,
+    "img": "../assets/img/Productos/calzadoNinas/53.jpg",
+    "initial": 1
+  }, {
+    "id": 54,
+    "nombre": "Calzado Niña 38",
+    "precio": 2550,
+    "stock": 4,
+    "img": "../assets/img/Productos/calzadoNinas/54.jpg",
+    "initial": 1
+  }, {
+    "id": 55,
+    "nombre": "Calzado Niña 39",
+    "precio": 2659,
+    "stock": 68,
+    "img": "../assets/img/Productos/calzadoNinas/55.jpg",
+    "initial": 1
+  }, {
+    "id": 56,
+    "nombre": "Calzado Niña 40",
+    "precio": 3774,
+    "stock": 90,
+    "img": "../assets/img/Productos/calzadoNinas/56.jpg",
+    "initial": 1
+  }, {
+    "id": 57,
+    "nombre": "Calzado Niña 41",
+    "precio": 3998,
+    "stock": 99,
+    "img": "../assets/img/Productos/calzadoNinas/57.jpg",
+    "initial": 1
+  }, {
+    "id": 58,
+    "nombre": "Calzado Niña 42",
+    "precio": 2510,
+    "stock": 82,
+    "img": "../assets/img/Productos/calzadoNinas/58.jpg",
+    "initial": 1
+  }, {
+    "id": 59,
+    "nombre": "Calzado Adolescentes 01",
+    "precio": 3801,
+    "stock": 82,
+    "img": "../assets/img/Productos/calzadoAdolescentes/59.jpg",
+    "initial": 1
+  }, {
+    "id": 60,
+    "nombre": "Calzado Adolescentes 02",
+    "precio": 3473,
+    "stock": 13,
+    "img": "../assets/img/Productos/calzadoAdolescentes/60.jpg",
+    "initial": 1
+  }, {
+    "id": 61,
+    "nombre": "Calzado Adolescentes 03",
+    "precio": 3833,
+    "stock": 24,
+    "img": "../assets/img/Productos/calzadoAdolescentes/61.jpg",
+    "initial": 1
+  }, {
+    "id": 62,
+    "nombre": "Calzado Adolescentes 04",
+    "precio": 3953,
+    "stock": 29,
+    "img": "../assets/img/Productos/calzadoAdolescentes/62.jpg",
+    "initial": 1
+  }, {
+    "id": 63,
+    "nombre": "Calzado Adolescentes 05",
+    "precio": 3152,
+    "stock": 18,
+    "img": "../assets/img/Productos/calzadoAdolescentes/63.jpg",
+    "initial": 1
+  }, {
+    "id": 64,
+    "nombre": "Calzado Adolescentes 06",
+    "precio": 3260,
+    "stock": 5,
+    "img": "../assets/img/Productos/calzadoAdolescentes/64.jpg",
+    "initial": 1
+  }, {
+    "id": 65,
+    "nombre": "Calzado Adolescentes 07",
+    "precio": 3833,
+    "stock": 6,
+    "img": "../assets/img/Productos/calzadoAdolescentes/65.jpg",
+    "initial": 1
+  }, {
+    "id": 66,
+    "nombre": "Calzado Adolescentes 08",
+    "precio": 2652,
+    "stock": 90,
+    "img": "../assets/img/Productos/calzadoAdolescentes/66.jpg",
+    "initial": 1
+  }, {
+    "id": 67,
+    "nombre": "Calzado Adolescentes 09",
+    "precio": 3467,
+    "stock": 90,
+    "img": "../assets/img/Productos/calzadoAdolescentes/67.jpg",
+    "initial": 1
+  }, {
+    "id": 68,
+    "nombre": "Calzado Adolescentes 10",
+    "precio": 2945,
+    "stock": 88,
+    "img": "../assets/img/Productos/calzadoAdolescentes/68.jpg",
+    "initial": 1
+  }, {
+    "id": 69,
+    "nombre": "Calzado Adolescentes 11",
+    "precio": 3372,
+    "stock": 15,
+    "img": "../assets/img/Productos/calzadoAdolescentes/69.jpg",
+    "initial": 1
+  }, {
+    "id": 70,
+    "nombre": "Calzado Adolescentes 12",
+    "precio": 3588,
+    "stock": 62,
+    "img": "../assets/img/Productos/calzadoAdolescentes/70.jpg",
+    "initial": 1
+  }, {
+    "id": 71,
+    "nombre": "Calzado Adolescentes 13",
+    "precio": 3747,
+    "stock": 79,
+    "img": "../assets/img/Productos/calzadoAdolescentes/71.jpg",
+    "initial": 1
+  }, {
+    "id": 72,
+    "nombre": "Calzado Adolescentes 14",
+    "precio": 2872,
+    "stock": 55,
+    "img": "../assets/img/Productos/calzadoAdolescentes/72.jpg",
+    "initial": 1
+  }, {
+    "id": 73,
+    "nombre": "Calzado Adolescentes 15",
+    "precio": 3279,
+    "stock": 27,
+    "img": "../assets/img/Productos/calzadoAdolescentes/73.jpg",
+    "initial": 1
+  }, {
+    "id": 74,
+    "nombre": "Calzado Adolescentes 16",
+    "precio": 3712,
+    "stock": 67,
+    "img": "../assets/img/Productos/calzadoAdolescentes/74.jpg",
+    "initial": 1
+  }, {
+    "id": 75,
+    "nombre": "Calzado Adolescentes 17",
+    "precio": 3325,
+    "stock": 41,
+    "img": "../assets/img/Productos/calzadoAdolescentes/75.jpg",
+    "initial": 1
+  }, {
+    "id": 76,
+    "nombre": "Calzado Adolescentes 18",
+    "precio": 2686,
+    "stock": 48,
+    "img": "../assets/img/Productos/calzadoAdolescentes/76.jpg",
+    "initial": 1
+  }, {
+    "id": 77,
+    "nombre": "Calzado Adolescentes 19",
+    "precio": 3574,
+    "stock": 41,
+    "img": "../assets/img/Productos/calzadoAdolescentes/77.jpg",
+    "initial": 1
+  }, {
+    "id": 78,
+    "nombre": "Calzado Adolescentes 20",
+    "precio": 3127,
+    "stock": 35,
+    "img": "../assets/img/Productos/calzadoAdolescentes/78.jpg",
+    "initial": 1
+  }, {
+    "id": 79,
+    "nombre": "Calzado Adolescentes 21",
+    "precio": 2529,
+    "stock": 18,
+    "img": "../assets/img/Productos/calzadoAdolescentes/79.jpg",
+    "initial": 1
+  }, {
+    "id": 80,
+    "nombre": "Calzado Adolescentes 22",
+    "precio": 3319,
+    "stock": 71,
+    "img": "../assets/img/Productos/calzadoAdolescentes/80.jpg",
+    "initial": 1
+  }, {
+    "id": 81,
+    "nombre": "Calzado Adolescentes 23",
+    "precio": 3153,
+    "stock": 45,
+    "img": "../assets/img/Productos/calzadoAdolescentes/81.jpg",
+    "initial": 1
+  }, {
+    "id": 82,
+    "nombre": "Calzado Adolescentes 24",
+    "precio": 2763,
+    "stock": 69,
+    "img": "../assets/img/Productos/calzadoAdolescentes/82.jpg",
+    "initial": 1
+  }, {
+    "id": 83,
+    "nombre": "Calzado Adolescentes 25",
+    "precio": 3301,
+    "stock": 32,
+    "img": "../assets/img/Productos/calzadoAdolescentes/83.jpg",
+    "initial": 1
+  }, {
+    "id": 84,
+    "nombre": "Calzado Adolescentes 26",
+    "precio": 3050,
+    "stock": 42,
+    "img": "../assets/img/Productos/calzadoAdolescentes/84.jpg",
+    "initial": 1
+  }, {
+    "id": 85,
+    "nombre": "Calzado Adolescentes 27",
+    "precio": 2733,
+    "stock": 82,
+    "img": "../assets/img/Productos/calzadoAdolescentes/85.jpg",
+    "initial": 1
+  }, {
+    "id": 86,
+    "nombre": "Calzado Adolescentes 28",
+    "precio": 3568,
+    "stock": 21,
+    "img": "../assets/img/Productos/calzadoAdolescentes/86.jpg",
+    "initial": 1
+  }, {
+    "id": 87,
+    "nombre": "Calzado Adolescentes 29",
+    "precio": 3504,
+    "stock": 54,
+    "img": "../assets/img/Productos/calzadoAdolescentes/87.jpg",
+    "initial": 1
+  }, {
+    "id": 88,
+    "nombre": "Calzado Adolescentes 30",
+    "precio": 3250,
+    "stock": 59,
+    "img": "../assets/img/Productos/calzadoAdolescentes/88.jpg",
+    "initial": 1
+  }, {
+    "id": 89,
+    "nombre": "Calzado Adolescentes 31",
+    "precio": 2994,
+    "stock": 61,
+    "img": "../assets/img/Productos/calzadoAdolescentes/89.jpg",
+    "initial": 1
+  }, {
+    "id": 90,
+    "nombre": "Calzado Adolescentes 32",
+    "precio": 2509,
+    "stock": 13,
+    "img": "../assets/img/Productos/calzadoAdolescentes/90.jpg",
+    "initial": 1
+  }]
