@@ -69,7 +69,7 @@
             <div class="float-left">
 
               <a href="../index.html" class="header__Logo">
-                <img src="../assets/img/Header/logotipoBebote.png" alt="Logotipo Bebote" />
+                <img src="../assets/img/LOGO/logotipoBebote.png" alt="Logotipo Bebote" />
               </a>
 
             </div>
@@ -78,17 +78,17 @@
             <div class="float-right header__Iconos header__Iconos--Syne">
 
               <a href="#" class="text-decoration-none">
-                <img src="../assets/img/Header/Ayuda.png" alt="Ayuda" />
+                <i class="fas fa-info-circle"></i>
                 <h5>Ayuda</h5>
               </a>
 
               <a href="#" class="text-decoration-none">
-                <img src="../assets/img/Header/Pregunta.png" alt="Preguntas Frecuentes" />
+                <i class="fas fa-question-circle"></i>
                 <h5>Preguntas Frecuentes</h5>
               </a>
 
               <a href="#" class="text-decoration-none">
-                <img src="../assets/img/Header/Ubicacion.png" alt="Sucursal" />
+                <i class="fas fa-map-marker-alt"></i>
                 <h5>Sucursal</h5>
               </a>
             </div>
@@ -141,7 +141,7 @@
 
           <!--LOGOTIPO NAVBAR, DESAPARECE EN VERSION LG Y SUPERIORES-->
           <a class="navbar-brand d-lg-none navbar__Logo" href="../index.html">
-            <img src="../assets/img/Navbar/logotipoBebote.png" width="60" height="60" alt="" loading="lazy" />
+            <img src="../assets/img/LOGO/logotipoBebote.png" width="60" height="60" alt="" loading="lazy" />
           </a>
 
           <div class="navbar__Iconos">
@@ -150,10 +150,10 @@
             <div class="d-lg-none">
 
               <a href="#" class="text-decoration-none">
-                <img src="../assets/img/Navbar/Buscar.png" />
+                <i class="navbar__Buscar fas fa-search"></i>
               </a>
               <a href="../pages/pedido.html" target="_blank" class="text-decoration-none">
-                <img src="../assets/img/Navbar/Bolsa.png" />
+                <i class="navbar__Bolsa fas fa-shopping-bag"></i>
               </a>
 
             </div>
@@ -198,11 +198,11 @@
           <div class="d-none d-lg-block navbar__Iconos">
 
             <a href="#" class="text-decoration-none">
-              <img src="../assets/img/Navbar/Buscar.png" />
+              <i class="navbar__Buscar fas fa-search"></i>
             </a>
 
             <a href="../pages/pedido.html" class="text-decoration-none">
-              <img src="../assets/img/Navbar/Bolsa.png" />
+              <i class="navbar__Bolsa fas fa-shopping-bag"></i>
             </a>
           </div>
         </nav>
@@ -270,7 +270,7 @@
                 <div class="col-lg-3 col-md-6 footer__Apartados">
                   <div class="float-left">
                     <a href="../index.html" class="footer__Logotipo">
-                      <img src="../assets/img/Footer/logotipoBebote.png" alt="Logotipo Bebote" />
+                      <img src="../assets/img/LOGO/logotipoBebote.png" alt="Logotipo Bebote" />
                     </a>
 
                     <h4>SÍGUENOS</h4>
@@ -334,40 +334,14 @@
                 <div class="col-lg-4 col-md-6 footer__Newsletter">
                   <h4>SUSCRÍBETE A NUESTRO NEWSLETTER</h4>
                   <form action="#" method="#">
+
                     <input type="email" name="email" />
-                    <!-- BOTÓN DE ENVIO DEL FORMULARIO Y ACTIVACIÓN DEL MODAL -->
-                    <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter"
-                      id="">
+
+                    <!-- BOTÓN DE ENVIO DEL FORMULARIO -->
+                    <button type="submit" class="footer__NewsletterEnviar">
                       Suscribirse
                     </button>
-
-                    <!-- MODAL -->
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                      aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                      <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">
-                              Muchas gracias por suscribirte a Bebote
-                            </h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <p class="text-center">
-                              Recibirás de forma mensual y antes que nadie un
-                              catálogo exclusivo de nuestros nuevos productos
-                            </p>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-danger">
-                              Cerrar
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </form>
                   <p>
                     CONOCE ANTES QUE NADIE NUESTROS PRODUCTOS
@@ -389,9 +363,9 @@
               </div>
             </div>
 
-            <div class="text-center text-md-right pt-3 pt-md-0">
-              <a id='arriba' href="#" class="text-decoration-none text-dark">Ir arriba
-                <img src="../assets/img/Footer/Arriba.png" alt="Ir Arriba" />
+            <div class="footer__Arriba text-center text-md-right pt-3 pt-md-0">
+              <a id='arriba' href="#" class="text-decoration-none text-dark">
+                <i class="fas fa-sort-up"></i>Ir arriba
               </a>
             </div>
           </div>

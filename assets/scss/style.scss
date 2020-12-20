@@ -63,8 +63,8 @@ $mapaColores: (
 
   .header__Logo{
     img{
-      max-width: 5em;
-      max-height: 5em;
+      max-width: 8vh;
+      max-height: 8vh;
     }
   }
 
@@ -77,16 +77,17 @@ $mapaColores: (
       position: relative;
       top: 1em;
 
-      img{
-        max-height: 2em;
-        max-width: 2em;
+      i{
+        color: $Bebote;
+        font-size: 3vh;
+        position: relative;
+        top: 5px;
       }
 
       h5{
         display: inline-block;
         position: relative;
-        top: 5px;
-        font-size: 1rem;
+        font-size: 1.5vh;
         color: black;
       }
     }
@@ -104,6 +105,37 @@ $mapaColores: (
   .header__Iconos--#{$fuenteIconosHeader} {
     font-family: $valorFuenteIconosHeader;
   }
+}
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS HEADER A 1100PX*/
+@media only screen and (min-width:1100px){
+ 
+  .header{
+
+    .header__Logo{
+      img{
+        max-width: 10vh;
+        max-height: 10vh;
+      }
+    }
+  
+    .header__Iconos{
+      a{
+        padding: 1em;
+        top: 1em;
+  
+        i{
+          font-size: 4vh;
+          top: 5px;
+        }
+  
+        h5{
+          font-size: 2vh;
+        }
+      }
+    }
+  }
+
 }
 
 
@@ -144,15 +176,33 @@ $mapaColores: (
   .navbar__Iconos{
     display: flex;
 
-    a{
-      img{
-        max-width: 2em;
-        max-height: 2em;
-        margin-right: 1em;
-      }
+    .navbar__Buscar{
+      color: $dimBebote;
+      font-size: 4vh;
+      margin-top: 4px;
+      cursor: pointer;
     }
 
+    .navbar__Buscar:hover{
+      color: $Bebote;
+      
+    }
+
+    .navbar__Bolsa{
+      color: $dimBebote;
+      font-size: 4vh;
+      margin-top: 4px;
+      margin-left: 1vh;
+      margin-right: 2vh;
+    }
+
+    .navbar__Bolsa:hover{
+      color: $Bebote;
+    }
   }
+
+
+
 
   .navbar-toggler:hover, .nav-item:hover, .dropdown-item:hover {
     border-radius: 5px;
@@ -173,6 +223,117 @@ $mapaColores: (
   }
 }
 
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 410PX*/
+@media only screen and (min-width:405px){
+
+  .navbar {
+    
+    .navbar__Iconos{
+
+      .navbar__Buscar{
+        font-size: 4vh;
+        margin-top: 4px;
+      }
+  
+      .navbar__Bolsa{
+        font-size: 4vh;
+        margin-top: 4px;
+        
+      }
+
+    }
+  }
+
+}
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 600PX*/
+@media only screen and (min-width:590px){
+ 
+  .navbar {
+    
+    .navbar__Iconos{
+
+      .navbar__Buscar{
+        font-size: 3.5vh;
+        margin-top: 3px;
+      }
+  
+      .navbar__Bolsa{
+        font-size: 3.5vh;
+        margin-top: 3px;
+        
+      }
+
+    }
+  }
+
+}
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 760PX*/
+@media only screen and (min-width:750px){
+  
+  .navbar {
+    
+    .navbar__Iconos{
+
+      .navbar__Buscar{
+        font-size: 3.5vh;
+        margin-top: 1px;
+      }
+  
+      .navbar__Bolsa{
+        font-size: 3.5vh;
+        margin-top: 1px;
+        
+      }
+
+    }
+  }
+
+}
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 1020PX*/
+@media only screen and (min-width:1020px){
+  
+  .navbar {
+    
+    .navbar__Iconos{
+
+      .navbar__Buscar{
+        font-size: 3vh;
+        margin-top: 1px;
+      }
+  
+      .navbar__Bolsa{
+        font-size: 3vh;
+        margin-top: 1px;
+        
+      }
+
+    }
+  }
+
+}
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 1200PX*/
+@media only screen and (min-width:1100px){
+ 
+  .navbar {
+    
+    .navbar__Iconos{
+
+      .navbar__Buscar{
+        font-size: 4vh;
+        
+      }
+  
+      .navbar__Bolsa{
+        font-size: 4vh;
+      }
+
+    }
+  }
+
+}
 
 
 
@@ -291,16 +452,29 @@ $mapaColores: (
       }
 
       form{
+
+        display: flex;
+        flex-direction: row;
         background: #fff;
         padding: 5px 10px;
         position: relative;
         border-radius: 4px;
         text-align: left;
 
-        button[type="email"] {
-          border-radius: 1px solid black;
-          padding: 4px 8px;
-          width: calc(100% - 100px);        
+        .footer__NewsletterEnviar {
+          min-width: 10em;
+          margin: auto;
+          text-decoration: none;
+          background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
+          text-align: center;
+          color: white;
+          font-size: 1em;
+          margin-left: 0.5em;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          border-radius: 5px;     
+          border: none;
+          padding: 1vh;  
         }
 
       }
@@ -316,12 +490,28 @@ $mapaColores: (
   }
 
   .footer__Inferior{
+
     .footer__Creditos{
       a{
         text-decoration: none;
         color: $Bebote;
       }
     }
+
+    .footer__Arriba{
+      a{
+        font-size: 2.5vh;
+        i{
+          position: relative;
+          top: 7px;
+          margin-right: 5px;
+          color: red;
+          font-size: 3vh;
+        }
+      }
+      
+    }
+      
   }
 }
 
