@@ -1188,7 +1188,8 @@ $mapaColores: (
       }
 
       .catalogo__Titulo{
-        font-size: 3.5vh;
+        font-size: 2vh;
+        margin-right: 1vh;
         font-weight: 900;
         font-family: $Syne;
         text-align: center;
@@ -1215,8 +1216,8 @@ $mapaColores: (
 }
 
 
-/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 560PX*/
-@media only screen and (min-width:560px){
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 480PX*/
+@media only screen and (min-width:480px){
 
   .catalogo{
     
@@ -1225,7 +1226,7 @@ $mapaColores: (
       .catalogo__Img{
   
         .catalogo__Titulo{
-          font-size: 4vh;
+          font-size: 2.5vh;
         }
       }
     }  
@@ -1233,8 +1234,133 @@ $mapaColores: (
   }
 }
 
-/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 768PX*/
-@media only screen and (min-width:768px){
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 600PX*/
+@media only screen and (min-width:600px){
+
+  .catalogo{
+    
+    .catalogo__Box{
+  
+      .catalogo__Img{
+  
+        .catalogo__Titulo{
+          font-size: 3vh;
+        }
+      }
+    }  
+  
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 1020PX*/
+@media only screen and (min-width:1020px){
+
+  .catalogo{
+    
+    .catalogo__Box{
+  
+      .catalogo__Img{
+  
+        .catalogo__Titulo{
+          font-size: 3.5vh;
+        }
+      }
+    }  
+  
+  }
+}
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 500PX LANDSCAPE*/
+@media only screen and (min-width:500px) and (orientation: landscape){
+
+  .catalogo{
+    
+    .catalogo__Box{
+  
+      .catalogo__Img{
+  
+        .catalogo__Titulo{
+          font-size: 9vh;
+        }
+      }
+    }  
+  
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 800PX LANDSCAPE*/
+@media only screen and (min-width:800px) and (orientation: landscape){
+
+  .catalogo{
+    
+    .catalogo__Box{
+  
+      .catalogo__Img{
+  
+        .catalogo__Titulo{
+          font-size: 10vh;
+        }
+      }
+    }  
+  
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 850PX LANDSCAPE*/
+@media only screen and (min-width:850px) and (orientation: landscape){
+
+  .catalogo{
+    
+    .catalogo__Box{
+  
+      .catalogo__Img{
+  
+        .catalogo__Titulo{
+          font-size: 8.5vh;
+        }
+      }
+    }  
+  
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 925PX LANDSCAPE*/
+@media only screen and (min-width:925px) and (orientation: landscape){
+
+  .catalogo{
+    
+    .catalogo__Box{
+  
+      .catalogo__Img{
+  
+        .catalogo__Titulo{
+          font-size: 7.6vh;
+        }
+      }
+    }  
+  
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 1020PX LANDSCAPE*/
+@media only screen and (min-width:1020px) and (orientation: landscape){
+
+  .catalogo{
+    
+    .catalogo__Box{
+  
+      .catalogo__Img{
+  
+        .catalogo__Titulo{
+          font-size: 7vh;
+        }
+      }
+    }  
+  
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 1200PX LANDSCAPE*/
+@media only screen and (min-width:1200px) and (orientation: landscape){
 
   .catalogo{
     
@@ -1244,31 +1370,13 @@ $mapaColores: (
   
         .catalogo__Titulo{
           font-size: 6vh;
+          margin-right: 4vh;
         }
       }
     }  
   
   }
 }
-
-/*MEDIAQUERIE UBICACIÓN TAMAÑO TEXTO BANNER CATÁLOGO EN DISPOSITIVOS SUPERIORES A 1024PX*/
-@media only screen and (min-width:1024px){
-
-  .catalogo{
-    
-    .catalogo__Box{
-  
-      .catalogo__Img{
-  
-        .catalogo__Titulo{
-          font-size: 8vh;
-        }
-      }
-    }  
-  
-  }
-}
-
 
 
 
@@ -2551,14 +2659,13 @@ color: white;
 
 
 
-
-
 .galeriaProductos{
-  padding: 0;
+  
   margin-bottom: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
   
   
   .galeriaProductos__Titulo{
@@ -2576,13 +2683,12 @@ color: white;
   
 
   .galeriaProductos__Contenedor{
-    padding: 0;
-    margin: 0;
+    
 
     .galeriaProductos__Card{
       padding: 5px;
       overflow: hidden;
-      max-width: 350px;
+      max-width: 400;
 
       .galeriaProductos__CardContenedor{
         display: block;
@@ -2606,38 +2712,34 @@ color: white;
     }
   }
 
- 
-
-  .galeriaProductos__Volver{
+  .galeriaProductos__Boton{
     max-width: 12em;
-    padding: 8px 1vh;
-    margin: auto;
+    padding: 0.5vh 0.5vh;
+    margin: 3vh 1vh;
     text-decoration: none;
     background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
     text-align: center;
     display: block;
-    margin-top: 3vh;
-    margin-bottom: 8vh;
     color: white;
     font-size: 2vh;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 5px;
     transition: all 200ms;
-      
-    a{
-      color: $whiteBebote;
-      text-decoration: none;
-    }
+    font-family: $Syne;
   }
-      
-      
-  .galeriaProductos__Volver:hover{
+
+  .galeriaProductos__Boton:hover{
     transform: translateY(10px);
     box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
     color: white;
   }
 }
+
+
+
+
+
 
 
 
@@ -2686,7 +2788,7 @@ color: white;
     top: 0;
     right: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2721,7 +2823,7 @@ color: white;
           color: $Bebote;
           margin-bottom: 1vh;
           margin-top: 2vh;
-          font-size: x-large;
+          font-size: 5vh;
         }
   
         .popup__ContenedorPrecio{
@@ -2729,16 +2831,14 @@ color: white;
           font-weight: 600;
           margin-bottom: 1vh;
           color: $darkBebote;
-          font-size: x-large;
-          
+          font-size: 4vh;
         }
   
         .popup__ContenedorStock{
           font-size: x-large;
           font-weight: 600;
           color: $dimBebote;
-          font-size: x-large;
-          
+          font-size: 3vh;
         }
   
         .popup__ContenedorAgregar{
@@ -2750,12 +2850,13 @@ color: white;
           margin-top: 2vh;
           margin-bottom: 7vh;
           color: $whiteBebote;
-          font-size: 2vh;
+          font-size: 1.8vh;
           text-transform: uppercase;
           letter-spacing: 2px;
           border-radius: 5px;
           transition: all 200ms;
-          
+          border: none;
+          box-shadow: 0px 30px 5px -20px rgba(0,0,0,0.3);
         }
   
         .popup__ContenedorAgregar:hover{
@@ -2768,7 +2869,7 @@ color: white;
     .popup__Cerrar{
       display: block;
       position: absolute;
-      top: 20px;
+      top: 30px;
       right: 20px;
       background: $Bebote;
       color: $whiteBebote;
@@ -2776,7 +2877,7 @@ color: white;
       width: 35px;
       height: 35px;
       text-align: center;
-      line-height: 35px;
+      line-height: 32px;
       border-radius: 50%;
       
   
@@ -2791,8 +2892,6 @@ color: white;
 @media only screen and (min-width:560px){
 
   #popup{
-
-    display: none;
   
     .popup{
     
@@ -2803,38 +2902,30 @@ color: white;
         .popup__ContenedorImg{
           width: 75vw;
           max-height: 75vh;
-  
         }
     
         .popup__ContenedorProductos{
     
           .popup__ContenedorNombre{
-            margin-bottom: 2vh;
+            font-size: 4vh;
           }
     
           .popup__ContenedorPrecio{
-            font-size: x-large;
-            margin-bottom: 1vh;
-            color: $darkBebote;
-            
+            font-size: 3vh;
           }
     
           .popup__ContenedorStock{
-            font-size: x-large;
-            color: $dimBebote;
+            font-size: 2vh;
+            
             
           }
     
           .popup__ContenedorAgregar{
-            padding: 1vh;
-            margin-top: 3vh;
-            font-size: 2vh;
-            border-radius: 5px;
+            font-size: 1.4vh;
           }
 
         }
       }
-    
     
       .popup__Cerrar{
         top: 35px;
@@ -2845,18 +2936,14 @@ color: white;
 }
 
 
-//VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 768PX
-@media only screen and (min-width:768px){
+//VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 760PX
+@media only screen and (min-width:760px){
 
   #popup{
-
-    display: none;
   
     .popup{
     
       .popup__Contenedor{
-    
-        max-width: 85vw;
         
         .popup__ContenedorImg{
           width: 65vw;
@@ -2867,34 +2954,25 @@ color: white;
         .popup__ContenedorProductos{
     
           .popup__ContenedorNombre{
-            margin-bottom: 5vh;
+            font-size: 5vh;
           }
     
           .popup__ContenedorPrecio{
-            font-size: x-large;
-            margin-bottom: 2.5vh;
-            color: $darkBebote;
-            
+            font-size: 4vh;
           }
     
           .popup__ContenedorStock{
-            font-size: x-large;
-            color: $dimBebote;
-            
+            font-size: 3vh;
           }
     
           .popup__ContenedorAgregar{
             padding: 1,5vh;
-            margin-top: 5vh;
-            font-size: 2.5vh;
-            border-radius: 5px;
+            font-size: 1.8vh;
           }
 
         }
       }
-    
-      
-    
+
       .popup__Cerrar{
         top: 40px;
         right: 25px;
@@ -2909,55 +2987,197 @@ color: white;
 @media only screen and (min-width:1024px){
 
   #popup{
-
-    display: none;
   
     .popup{
     
       .popup__Contenedor{
     
-        max-width: 85vw;
-        
-        .popup__ContenedorImg{
-          width: 65vw;
-          max-height: 75vh;
-  
-        }
-    
         .popup__ContenedorProductos{
     
           .popup__ContenedorNombre{
-            margin-bottom: 5vh;
+            font-size: 5vh;
+            
           }
     
           .popup__ContenedorPrecio{
-            font-size: x-large;
+            font-size: 4vh;
             margin-bottom: 2.5vh;
-            color: $darkBebote;
             
           }
     
           .popup__ContenedorStock{
-            font-size: x-large;
-            color: $dimBebote;
+            font-size: 3vh;
+      
             
           }
     
           .popup__ContenedorAgregar{
-            padding: 2vh;
-            margin-top: 8vh;
-            font-size: 2.5vh;
-            border-radius: 5px;
+            margin-top: 5vh;
+            font-size: 2vh;
           }
 
         }
       }
     
-      
-    
       .popup__Cerrar{
         top: 30px;
         right: 25px;
+      }
+    }
+  }
+}
+
+//VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 1200PX
+@media only screen and (min-width:1200px){
+
+  #popup{
+  
+    .popup{
+    
+      .popup__Contenedor{
+    
+        .popup__ContenedorProductos{
+    
+          .popup__ContenedorNombre{
+            font-size: 7vh;
+            
+          }
+    
+          .popup__ContenedorPrecio{
+            font-size: 6vh;
+            
+          }
+    
+          .popup__ContenedorStock{
+            font-size: 5vh;
+      
+            
+          }
+    
+          .popup__ContenedorAgregar{
+            font-size: 3vh;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+
+/*VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 500PX LANDSCAPE*/
+@media only screen and (min-width:500px) and (orientation: landscape){
+
+  #popup{
+  
+    .popup{
+    
+      .popup__Contenedor{
+    
+        .popup__ContenedorProductos{
+    
+          .popup__ContenedorNombre{
+            font-size: 7.8vh;
+            
+          }
+    
+          .popup__ContenedorPrecio{
+            font-size: 7vh;
+            
+          }
+    
+          .popup__ContenedorStock{
+            font-size: 6vh;
+      
+            
+          }
+    
+          .popup__ContenedorAgregar{
+            font-size: 3.6vh;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+/*VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 800PX LANDSCAPE*/
+@media only screen and (min-width:800px) and (orientation: landscape){
+
+  #popup{
+  
+    .popup{
+    
+      .popup__Contenedor{
+    
+        .popup__ContenedorProductos{
+    
+          .popup__ContenedorNombre{
+            font-size: 10vh;
+            
+          }
+    
+          .popup__ContenedorPrecio{
+            font-size: 8vh;
+            
+          }
+    
+          .popup__ContenedorStock{
+            font-size: 7vh;
+      
+            
+          }
+    
+          .popup__ContenedorAgregar{
+            font-size: 4vh;
+          }
+
+        }
+      }
+    }
+  }
+}
+/*VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 1020PX LANDSCAPE*/
+@media only screen and (min-width:1020px) and (orientation: landscape){
+
+  #popup{
+  
+    .popup{
+    
+      .popup__Contenedor{
+    
+        .popup__ContenedorProductos{
+    
+          .popup__ContenedorNombre{
+            font-size: 7vh;
+            
+          }
+    
+          .popup__ContenedorPrecio{
+            font-size: 6vh;
+            
+          }
+    
+          .popup__ContenedorStock{
+            font-size: 5vh;
+      
+            
+          }
+    
+          .popup__ContenedorAgregar{
+            font-size: 3vh;
+          }
+
+          
+
+        }
+      }
+
+      .popup__Cerrar{
+        top: 40px;
+        right: 35px;
+        
       }
     }
   }

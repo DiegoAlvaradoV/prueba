@@ -131,6 +131,16 @@ calzadoBebes.click(()=>{
     //AGREGAMOS LOS PRODUCTOS AL CONTENEDOR DE LA GALERÍA DE CALZADO BEBÉS
     contenedorGaleria.append(contenedorProductos); 
 
+    //BOTÓN PARA DIRIGIRSE AL CARRITO
+    let botonCarrito = $(document.createElement('a'));
+    botonCarrito.addClass('galeriaProductos__Boton');
+    botonCarrito.attr('href','../pages/pedido.html')
+    botonCarrito.append(`
+    <button type="button">Ir a comprar<button>`)
+    botonCarrito.html('Ir a comprar');
+
+    contenedorGaleria.append(botonCarrito);
+
     contenedorStore.html(contenedorGaleria);
 
 
@@ -191,7 +201,15 @@ calzadoNinas.click(()=>{
     //AGREGAMOS LOS PRODUCTOS AL CONTENEDOR DE LA GALERÍA DE CALZADO BEBÉS
     contenedorGaleria.append(contenedorProductos); 
 
-    seccionesCatalogo.after(contenedorGaleria);
+    //BOTÓN PARA DIRIGIRSE AL CARRITO
+    let botonCarrito = $(document.createElement('a'));
+    botonCarrito.addClass('galeriaProductos__Boton');
+    botonCarrito.attr('href','../pages/pedido.html')
+    botonCarrito.append(`
+    <button type="button">Ir a comprar<button>`)
+    botonCarrito.html('Ir a comprar');
+
+    contenedorGaleria.append(botonCarrito);
 
     contenedorStore.html(contenedorGaleria);
     
@@ -252,7 +270,15 @@ calzadoAdolescentes.click(()=>{
     //AGREGAMOS LOS PRODUCTOS AL CONTENEDOR DE LA GALERÍA DE CALZADO BEBÉS
     contenedorGaleria.append(contenedorProductos); 
 
-    seccionesCatalogo.after(contenedorGaleria);
+    //BOTÓN PARA DIRIGIRSE AL CARRITO
+    let botonCarrito = $(document.createElement('a'));
+    botonCarrito.addClass('galeriaProductos__Boton');
+    botonCarrito.attr('href','../pages/pedido.html')
+    botonCarrito.append(`
+    <button type="button">Ir a comprar<button>`)
+    botonCarrito.html('Ir a comprar');
+
+    contenedorGaleria.append(botonCarrito);
 
     contenedorStore.html(contenedorGaleria);
 })
@@ -267,7 +293,7 @@ function visualizacionProductosBebes(databaseBebes){
     //CREAMOS EL CONTENEDOR DE LA CARTA DEL PRODUCTO, AGREGÁNDOLE UN ID
     let contenedorCard = $(document.createElement("div"));
     contenedorCard.attr('id',databaseBebes.id);
-    contenedorCard.addClass('col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 galeriaProductos__Card');
+    contenedorCard.addClass('col-6 col-xs-6 col-sm-4  galeriaProductos__Card');
 
     //CREAMOS EL CONTENEDOR DE LA IMÁGEN DEL PRODUCTO, EL CÚAL TIENE EN SU INTERIOR LA RESPECTIVA IMÁGEN DEL CALZADO DE BEBÉ Y UN EVENTO CLICK
     let contenedorCardContenedor = $(document.createElement("div"));
@@ -385,7 +411,7 @@ function visualizacionProductosNinas(databaseNinas){
     //CREAMOS EL CONTENEDOR DE LA CARTA DEL PRODUCTO, AGREGÁNDOLE UN ID
     let contenedorCard = $(document.createElement("div"));
     contenedorCard.attr('id',databaseNinas.id);
-    contenedorCard.addClass('col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 galeriaProductos__Card');
+    contenedorCard.addClass('col-6 col-xs-6 col-sm-4 galeriaProductos__Card');
 
     //CREAMOS EL CONTENEDOR DE LA IMÁGEN DEL PRODUCTO, EL CÚAL TIENE EN SU INTERIOR LA RESPECTIVA IMÁGEN DEL CALZADO DE NIÑA Y UN EVENTO CLICK
     let contenedorCardContenedor = $(document.createElement("div"));
@@ -499,7 +525,7 @@ function visualizacionProductosAdolescentes(databaseAdolescentes){
     //CREAMOS EL CONTENEDOR DE LA CARTA DEL PRODUCTO, AGREGÁNDOLE UN ID
     let contenedorCard = $(document.createElement("div"));
     contenedorCard.attr('id',databaseAdolescentes.id);
-    contenedorCard.addClass('col-6 col-xs-6 col-sm-4 col-md-4 col-lg-3 galeriaProductos__Card');
+    contenedorCard.addClass('col-6 col-xs-6 col-sm-4 galeriaProductos__Card');
 
     //CREAMOS EL CONTENEDOR DE LA IMÁGEN DEL PRODUCTO, EL CÚAL TIENE EN SU INTERIOR LA RESPECTIVA IMÁGEN DEL CALZADO DE ADOLESCENTE Y UN EVENTO CLICK
     let contenedorCardContenedor = $(document.createElement("div"));
