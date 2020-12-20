@@ -72,14 +72,14 @@
     .navbar .navbar__Iconos .navbar__Buscar {
       color: #767274;
       font-size: 4vh;
-      margin-top: 4px;
+      margin-top: 2px;
       cursor: pointer; }
     .navbar .navbar__Iconos .navbar__Buscar:hover {
       color: #de165c; }
     .navbar .navbar__Iconos .navbar__Bolsa {
       color: #767274;
       font-size: 4vh;
-      margin-top: 4px;
+      margin-top: 2px;
       margin-left: 1vh;
       margin-right: 2vh; }
     .navbar .navbar__Iconos .navbar__Bolsa:hover {
@@ -107,7 +107,7 @@
     font-size: 4vh;
     margin-top: 4px; } }
 
-/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 600PX*/
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 590PX*/
 @media only screen and (min-width: 590px) {
   .navbar .navbar__Iconos .navbar__Buscar {
     font-size: 3.5vh;
@@ -137,9 +137,39 @@
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 1200PX*/
 @media only screen and (min-width: 1100px) {
   .navbar .navbar__Iconos .navbar__Buscar {
-    font-size: 4vh; }
+    font-size: 3vh;
+    margin-top: 1px; }
   .navbar .navbar__Iconos .navbar__Bolsa {
-    font-size: 4vh; } }
+    font-size: 3vh;
+    margin-top: 1px; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 500PX LANDSCAPE*/
+@media only screen and (min-width: 500px) and (orientation: landscape) {
+  .navbar .navbar__Iconos .navbar__Buscar {
+    font-size: 8vh;
+    margin-top: 1px; }
+  .navbar .navbar__Iconos .navbar__Bolsa {
+    font-size: 8vh;
+    margin-top: 1px;
+    margin-left: 3vh;
+    margin-right: 4vh; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 800PX LANDSCAPE*/
+@media only screen and (min-width: 800px) and (orientation: landscape) {
+  .navbar .navbar__Iconos .navbar__Buscar {
+    margin-top: 5px; }
+  .navbar .navbar__Iconos .navbar__Bolsa {
+    margin-top: 5px;
+    margin-right: 6vh; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 1020PX LANDSCAPE*/
+@media only screen and (min-width: 1020px) and (orientation: landscape) {
+  .navbar .navbar__Iconos .navbar__Buscar {
+    font-size: 3.5vh; }
+  .navbar .navbar__Iconos .navbar__Bolsa {
+    font-size: 3.5vh;
+    margin-left: 2vh;
+    margin-right: 3vh; } }
 
 /*FOOTER*/
 .footer {
@@ -251,6 +281,27 @@
 .footer__Texto--Kumbh {
   font-family: "Kumbh Sans", sans-serif; }
 
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 500PX LANDSCAPE*/
+@media only screen and (min-width: 500px) and (orientation: landscape) {
+  .footer .footer__Inferior .footer__Arriba a i {
+    top: 2px;
+    font-size: 3vh; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 800PX LANDSCAPE*/
+@media only screen and (min-width: 800px) and (orientation: landscape) {
+  .footer .footer__Inferior .footer__Arriba a i {
+    top: 3.5px; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 1020PX LANDSCAPE*/
+@media only screen and (min-width: 1020px) and (orientation: landscape) {
+  .footer .footer__Inferior .footer__Arriba a i {
+    top: 7px; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 1200PX LANDSCAPE*/
+@media only screen and (min-width: 1200px) and (orientation: landscape) {
+  .footer .footer__Inferior .footer__Arriba a i {
+    top: 9px; } }
+
 /*INDEX*/
 /*CATEGORIAS CATÁLOGO INDEX*/
 .catalogoIndex {
@@ -357,6 +408,16 @@
     font-size: 6vh;
     margin-top: 4vh; } }
 
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER CAMPAÑA INDEX A 500PX LANDSCAPE*/
+@media only screen and (min-width: 500px) and (orientation: landscape) {
+  .card .campanaIndex h5 {
+    font-size: 8vh; }
+  .card .campanaIndex p {
+    font-size: 6vh; }
+  .card .campanaIndex .campanaIndex__Boton {
+    font-size: 6vh;
+    margin-top: 4vh; } }
+
 /*MODIFICADORES DE BANNER CAMPAÑA INDEX*/
 /*FUENTES DE BANNER CAMPAÑA INDEX*/
 .campanaIndex--Syne {
@@ -437,7 +498,7 @@
   box-shadow: 0px 30px 5px -15px rgba(0, 0, 0, 0.3);
   color: white; }
 
-/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER CAMPAÑA INDEX A 410PX*/
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER VENDEDORES INDEX A 410PX*/
 @media only screen and (min-width: 410px) {
   .card .vendedoresIndex h5 {
     font-size: 4vh; }
@@ -446,7 +507,7 @@
   .card .vendedoresIndex .vendedoresIndex__Boton {
     font-size: 3vh; } }
 
-/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER CAMPAÑA INDEX A 1200PX*/
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER VENDEDORES INDEX A 1200PX*/
 @media only screen and (min-width: 1200px) {
   .card .vendedoresIndex h5 {
     font-size: 6vh; }
@@ -456,8 +517,18 @@
     font-size: 5vh;
     margin-top: 4vh; } }
 
-/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER CAMPAÑA INDEX A 1400PX*/
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER VENDEDORES INDEX A 1400PX*/
 @media only screen and (min-width: 1400px) {
+  .card .vendedoresIndex h5 {
+    font-size: 8vh; }
+  .card .vendedoresIndex p {
+    font-size: 6vh; }
+  .card .vendedoresIndex .vendedoresIndex__Boton {
+    font-size: 6vh;
+    margin-top: 4vh; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER VENDEDORES INDEX A 500PX LANDSCAPE*/
+@media only screen and (min-width: 500px) and (orientation: landscape) {
   .card .vendedoresIndex h5 {
     font-size: 8vh; }
   .card .vendedoresIndex p {
@@ -1206,31 +1277,30 @@ html {
   color: #ffffff; }
 
 /*BOTONES SLIDER*/
-.carousel-caption h3 {
-  font-size: 3vh;
-  font-weight: 900; }
-
-.carousel-caption h6 {
-  font-size: 2vh;
-  font-weight: 700; }
-
-.carousel-caption .button {
-  max-width: 11em;
-  padding: 1vh;
-  margin: auto;
-  margin-top: 3vh;
-  text-decoration: none;
-  font-family: "Syne", sans-serif;
-  background: linear-gradient(50deg, #de165c, #eb76a3);
-  text-align: center;
-  display: block;
-  color: white;
-  font-size: 2vh;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 7px;
-  transition: all 200ms;
+.carousel-caption {
   margin-bottom: 2vh; }
+  .carousel-caption h3 {
+    font-size: 3vh;
+    font-weight: 900; }
+  .carousel-caption h6 {
+    font-size: 2vh;
+    font-weight: 700; }
+  .carousel-caption .button {
+    max-width: 11em;
+    padding: 1vh;
+    margin: auto;
+    margin-top: 3vh;
+    text-decoration: none;
+    font-family: "Syne", sans-serif;
+    background: linear-gradient(50deg, #de165c, #eb76a3);
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 2vh;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    transition: all 200ms; }
 
 .button:hover {
   transform: translateY(10px);
@@ -1239,58 +1309,70 @@ html {
 
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 410PX*/
 @media only screen and (min-width: 405px) {
-  .carousel-caption h3 {
-    font-size: 4vh; }
-  .carousel-caption h6 {
-    font-size: 3vh; }
-  .carousel-caption .button {
-    max-width: 10em;
-    margin-bottom: 3vh;
-    font-size: 3vh; } }
+  .carousel-caption {
+    margin-bottom: 3vh; }
+    .carousel-caption h3 {
+      font-size: 4vh; }
+    .carousel-caption h6 {
+      font-size: 3vh; }
+    .carousel-caption .button {
+      max-width: 10em;
+      font-size: 3vh; } }
 
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 600PX*/
 @media only screen and (min-width: 590px) {
-  .carousel-caption .button {
-    margin-bottom: 5vh; } }
+  .carousel-caption {
+    margin-bottom: 7vh; } }
 
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 760PX*/
 @media only screen and (min-width: 750px) {
-  .carousel-caption h3 {
-    font-size: 5vh; }
-  .carousel-caption h6 {
-    font-size: 4vh; }
-  .carousel-caption .button {
-    max-width: 9.5em;
-    margin-bottom: 6vh;
-    font-size: 4vh; } }
+  .carousel-caption {
+    margin-bottom: 6vh; }
+    .carousel-caption h3 {
+      font-size: 5vh; }
+    .carousel-caption h6 {
+      font-size: 4vh; }
+    .carousel-caption .button {
+      max-width: 9em;
+      font-size: 4vh; } }
 
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 1024PX*/
 @media only screen and (min-width: 1020px) {
-  .carousel-caption .button {
-    max-width: 9em;
-    margin-bottom: 10vh; } }
+  .carousel-caption {
+    margin-bottom: 10vh; }
+    .carousel-caption .button {
+      max-width: 9em; } }
 
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 1200PX*/
-@media only screen and (min-width: 1100px) {
-  .carousel-caption h3 {
-    font-size: 8vh; }
-  .carousel-caption h6 {
-    font-size: 7vh; }
-  .carousel-caption .button {
-    max-width: 9.5em;
-    margin-bottom: 25vh;
-    font-size: 7vh; } }
+@media only screen and (min-width: 1200px) {
+  .carousel-caption {
+    margin-bottom: 15vh; } }
 
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 1400PX*/
 @media only screen and (min-width: 1400px) {
+  .carousel-caption {
+    margin-bottom: 20vh; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 500PX LANDSCAPE*/
+@media only screen and (min-width: 500px) and (orientation: landscape) {
   .carousel-caption h3 {
-    font-size: 8vh; }
+    font-size: 10vh; }
   .carousel-caption h6 {
-    font-size: 7vh; }
+    font-size: 8vh; }
   .carousel-caption .button {
-    max-width: 9.5em;
-    margin-bottom: 38vh;
-    font-size: 7vh; } }
+    max-width: 10em;
+    margin-bottom: 25vh;
+    font-size: 8vh; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 800PX LANDSCAPE*/
+@media only screen and (min-width: 800px) and (orientation: landscape) {
+  .carousel-caption .button {
+    margin-bottom: 40vh; } }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 1020PX LANDSCAPE*/
+@media only screen and (min-width: 1020px) and (orientation: landscape) {
+  .carousel-caption .button {
+    margin-bottom: 12vh; } }
 
 /*MODIFICADORES SLIDERS*/
 /*FUENTES DE TEXTOS SLIDER*/

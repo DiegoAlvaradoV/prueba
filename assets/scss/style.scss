@@ -135,7 +135,6 @@ $mapaColores: (
       }
     }
   }
-
 }
 
 
@@ -179,7 +178,7 @@ $mapaColores: (
     .navbar__Buscar{
       color: $dimBebote;
       font-size: 4vh;
-      margin-top: 4px;
+      margin-top: 2px;
       cursor: pointer;
     }
 
@@ -191,7 +190,7 @@ $mapaColores: (
     .navbar__Bolsa{
       color: $dimBebote;
       font-size: 4vh;
-      margin-top: 4px;
+      margin-top: 2px;
       margin-left: 1vh;
       margin-right: 2vh;
     }
@@ -246,7 +245,7 @@ $mapaColores: (
 
 }
 
-/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 600PX*/
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 590PX*/
 @media only screen and (min-width:590px){
  
   .navbar {
@@ -322,17 +321,83 @@ $mapaColores: (
     .navbar__Iconos{
 
       .navbar__Buscar{
-        font-size: 4vh;
-        
+        font-size: 3vh;
+        margin-top: 1px;
       }
   
       .navbar__Bolsa{
-        font-size: 4vh;
+        font-size: 3vh;
+        margin-top: 1px;
+        
       }
 
     }
   }
 
+}
+
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 500PX LANDSCAPE*/
+@media only screen and (min-width:500px) and (orientation: landscape){
+
+  .navbar {
+    
+    .navbar__Iconos{
+
+      .navbar__Buscar{
+        font-size: 8vh;
+        margin-top: 1px;
+      }
+  
+      .navbar__Bolsa{
+        font-size: 8vh;
+        margin-top: 1px;
+        margin-left: 3vh;
+        margin-right: 4vh;
+      }
+
+    }
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 800PX LANDSCAPE*/
+@media only screen and (min-width:800px) and (orientation: landscape){
+
+  .navbar {
+    
+    .navbar__Iconos{
+
+      .navbar__Buscar{
+        margin-top: 5px;
+      }
+  
+      .navbar__Bolsa{
+        margin-top: 5px;
+        margin-right: 6vh;
+      }
+
+    }
+  }
+}
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONOS NAVBAR A 1020PX LANDSCAPE*/
+@media only screen and (min-width:1020px) and (orientation: landscape){
+
+  .navbar {
+    
+    .navbar__Iconos{
+
+      .navbar__Buscar{
+        font-size: 3.5vh;
+      }
+  
+      .navbar__Bolsa{
+        font-size: 3.5vh;
+        margin-left: 2vh;
+        margin-right: 3vh;
+      }
+
+    }
+  }
 }
 
 
@@ -522,6 +587,90 @@ $mapaColores: (
 @each $fuenteTextosFooter, $valorFuenteTextosFooter in $mapaFuentes {
   .footer__Texto--#{$fuenteTextosFooter} {
     font-family: $valorFuenteTextosFooter;
+  }
+}
+
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 500PX LANDSCAPE*/
+@media only screen and (min-width:500px) and (orientation: landscape){
+
+  .footer{
+  
+    .footer__Inferior{
+  
+      .footer__Arriba{
+        a{
+          
+          i{
+            top: 2px;
+            font-size: 3vh;
+          }
+        }
+        
+      }
+        
+    }
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 800PX LANDSCAPE*/
+@media only screen and (min-width:800px) and (orientation: landscape){
+
+  .footer{
+  
+    .footer__Inferior{
+  
+      .footer__Arriba{
+        a{
+          
+          i{
+            top: 3.5px;
+          }
+        }
+        
+      }
+        
+    }
+  }
+}
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 1020PX LANDSCAPE*/
+@media only screen and (min-width:1020px) and (orientation: landscape){
+
+  .footer{
+  
+    .footer__Inferior{
+  
+      .footer__Arriba{
+        a{
+          
+          i{
+            top: 7px;
+          }
+        }
+        
+      }
+        
+    }
+  }
+}
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS ICONO ARRIBA FOOTER A 1200PX LANDSCAPE*/
+@media only screen and (min-width:1200px) and (orientation: landscape){
+
+  .footer{
+  
+    .footer__Inferior{
+  
+      .footer__Arriba{
+        a{
+          
+          i{
+            top: 9px;
+          }
+        }
+        
+      }
+        
+    }
   }
 }
 
@@ -716,6 +865,30 @@ $mapaColores: (
   }
 }
 
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER CAMPAÑA INDEX A 500PX LANDSCAPE*/
+@media only screen and (min-width:500px) and (orientation: landscape){
+
+  .card{
+    
+    .campanaIndex{
+      h5{
+        font-size: 8vh;
+          
+      }
+      
+      p{
+        font-size: 6vh;
+          
+      }
+      
+      .campanaIndex__Boton{
+        font-size: 6vh;
+        margin-top: 4vh;
+        }
+    }
+  }
+}
+
 
 /*MODIFICADORES DE BANNER CAMPAÑA INDEX*/
 
@@ -818,7 +991,7 @@ $mapaColores: (
 }
 
 
-/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER CAMPAÑA INDEX A 410PX*/
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER VENDEDORES INDEX A 410PX*/
 @media only screen and (min-width:410px){
 
   .card{
@@ -841,7 +1014,7 @@ $mapaColores: (
   }
 }
 
-/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER CAMPAÑA INDEX A 1200PX*/
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER VENDEDORES INDEX A 1200PX*/
 @media only screen and (min-width:1200px){
 
   .card{
@@ -865,8 +1038,32 @@ $mapaColores: (
   }
 }
 
-/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER CAMPAÑA INDEX A 1400PX*/
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER VENDEDORES INDEX A 1400PX*/
 @media only screen and (min-width:1400px){
+
+  .card{
+    
+    .vendedoresIndex{
+      h5{
+        font-size: 8vh;
+          
+      }
+      
+      p{
+        font-size: 6vh;
+          
+      }
+      
+      .vendedoresIndex__Boton{
+        font-size: 6vh;
+        margin-top: 4vh;
+        }
+    }
+  }
+}
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS BANNER VENDEDORES INDEX A 500PX LANDSCAPE*/
+@media only screen and (min-width:500px) and (orientation: landscape){
 
   .card{
     
@@ -1912,6 +2109,8 @@ color: white;
 /*BOTONES SLIDER*/
 .carousel-caption{
 
+  margin-bottom: 2vh;
+
   h3{
     font-size: 3vh;
     font-weight: 900;
@@ -1938,7 +2137,6 @@ color: white;
     letter-spacing: 1px;
     border-radius: 7px;
     transition: all 200ms;
-    margin-bottom: 2vh;
   }
 }
 
@@ -1953,6 +2151,7 @@ color: white;
 @media only screen and (min-width:405px){
 
   .carousel-caption{
+    margin-bottom: 3vh;
 
     h3{
       font-size: 4vh;
@@ -1964,7 +2163,6 @@ color: white;
   
       .button{
         max-width: 10em;
-        margin-bottom: 3vh;
         font-size: 3vh;
       }
   
@@ -1975,16 +2173,17 @@ color: white;
 @media only screen and (min-width:590px){
 
   .carousel-caption{
-    .button{
-      margin-bottom: 5vh;
-    }
-    }
+    
+    margin-bottom: 7vh;
+    
+  }
 }
 
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 760PX*/
 @media only screen and (min-width:750px){
 
   .carousel-caption{
+    margin-bottom: 6vh;
 
   h3{
     font-size: 5vh;
@@ -1995,8 +2194,7 @@ color: white;
   }
 
     .button{
-      max-width: 9.5em;
-      margin-bottom: 6vh;
+      max-width: 9em;
       font-size: 4vh;
     }
   }
@@ -2005,56 +2203,86 @@ color: white;
 @media only screen and (min-width:1020px){
 
   .carousel-caption{
-    
+    margin-bottom: 10vh;
+
     .button{
       max-width: 9em;
-      margin-bottom: 10vh;
     }
 
   }
 }
 
+
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 1200PX*/
-@media only screen and (min-width:1100px){
+@media only screen and (min-width:1200px){
 
   .carousel-caption{
-
-    h3{
-      font-size: 8vh;
-    }
-  
-    h6{
-      font-size: 7vh;
-    }
-  
-      .button{
-        max-width: 9.5em;
-        margin-bottom: 25vh;
-        font-size: 7vh;
-      }
-    }
+    margin-bottom: 15vh;
+  }
 }
 
 /*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 1400PX*/
 @media only screen and (min-width:1400px){
 
   .carousel-caption{
+    margin-bottom: 20vh;
+  }
+}
+
+
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 500PX LANDSCAPE*/
+@media only screen and (min-width:500px) and (orientation: landscape){
+
+  .carousel-caption{
 
     h3{
-      font-size: 8vh;
+      font-size: 10vh;
     }
   
     h6{
-      font-size: 7vh;
+      font-size: 8vh;
     }
   
       .button{
-        max-width: 9.5em;
-        margin-bottom: 38vh;
-        font-size: 7vh;
+        max-width: 10em;
+        margin-bottom: 25vh;
+        font-size: 8vh;
       }
+  
     }
 }
+
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 800PX LANDSCAPE*/
+@media only screen and (min-width:800px) and (orientation: landscape){
+
+  .carousel-caption{
+    .button{
+       
+        margin-bottom: 40vh;
+        
+      }
+  
+    }
+}
+/*MEDIAQUERIE UBICACIÓN DE ELEMENTOS SLIDER A 1020PX LANDSCAPE*/
+@media only screen and (min-width:1020px) and (orientation: landscape){
+
+  .carousel-caption{
+
+      .button{
+        
+        margin-bottom: 12vh;
+        
+      }
+  
+    }
+}
+
+
+
+
+
 
 
 
