@@ -527,7 +527,7 @@ $mapaColores: (
         text-align: left;
 
         .footer__NewsletterEnviar {
-          min-width: 10em;
+          min-width: 7.5em;
           margin: auto;
           text-decoration: none;
           background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
@@ -536,7 +536,6 @@ $mapaColores: (
           font-size: 1em;
           margin-left: 0.5em;
           text-transform: uppercase;
-          letter-spacing: 2px;
           border-radius: 5px;     
           border: none;
           padding: 1vh;  
@@ -2437,6 +2436,7 @@ color: white;
 
 
 
+
 .pedidos{
   margin-bottom: 2em;
   margin-top: 1em;
@@ -2445,6 +2445,7 @@ color: white;
   .pedidos__Titulo{
     text-align: center;
     margin-bottom: 2em;
+
   }
 
   .pedidos__Carrito{
@@ -2677,7 +2678,7 @@ color: white;
 
     h1{
       font-weight: 900;
-      text-shadow: 0 0 5px rgba(0, 0, 0, .5);;
+      text-shadow: 0 0 5px rgba(0, 0, 0, .5);
     }
   }
   
@@ -2714,7 +2715,7 @@ color: white;
 
   .galeriaProductos__Boton{
     max-width: 12em;
-    padding: 0.5vh 0.5vh;
+    padding: 1vh;
     margin: 3vh 1vh;
     text-decoration: none;
     background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
@@ -3215,36 +3216,47 @@ color: white;
     font-family: $Syne;
     margin-bottom: 6vh;
     margin-top: 1vh;
+    font-size: 900;
+
+    h1{
+      font-weight: 900;
+    }
   }
 
   .productosCarrito{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 1vh;
     text-align: center;
     font-family: $Syne;
 
     .productosCarrito__Img{
-      
+      max-width: 100vh;
     }
   
     .productosCarrito__Titulo{
       color: $Bebote;
       font-weight: 900;
+      font-size: 3vh;
     }
   
     .productosCarrito__Precio{
       color: $darkBebote;
+      font-weight: 700;
+      font-size: 2.5vh;
     }
   
     .productosCarrito__Stock{
       color: $dimBebote;
+      font-weight: 700;
+      font-size: 2vh;
     }
 
     .productosCarrito__Mod{
       display: flex;
       justify-content: space-evenly;
-      
-      
 
       .productosCarrito__ModCont{
         font-size: 2.5vh;
@@ -3262,147 +3274,26 @@ color: white;
         color: $Bebote;
         font-size: 3vh;
         cursor: pointer;
-        
       }
     }
 
     .productosCarrito__Eliminar{
-    max-width: 15em;
-    padding: 5px 1vh;
-    margin: auto;
-    text-decoration: none;
-    background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
-    text-align: center;
-    display: block;
-    margin-bottom: 3vh;
-    color: white;
-    font-size: 2vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    transition: all 200ms;
-    }
-
-    .productosCarrito__Eliminar:hover{
-      transform: translateY(10px);
-      box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+      padding: 1vh;
+      margin: 3vh 1vh;
+      text-decoration: none;
+      background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
+      text-align: center;
+      display: block;
       color: white;
-    }
-  }
-  
-  .totalCarrito{
-    text-align: center;
-    font-family: $Syne;
-    margin-bottom: 3vh;
-  }
-
-  
-
-  .vaciarCarrito{
-    max-width: 15em;
-    padding: 6px 1vh;
-    margin: auto;
-    text-decoration: none;
-    background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
-    text-align: center;
-    display: block;
-    margin-bottom: 3vh;
-    color: white;
-    font-size: 2vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    transition: all 200ms;
-
-  }
-}
-
-.vaciarCarrito:hover{
-  transform: translateY(10px);
-  box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
-  color: white;
-}
-
-
-//MEDIAQUERIES POPUP
-
-//VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 560PX
-@media only screen and (min-width:560px){
-  #contenedorCarrito{
-
-  #tituloCarrito{
-    text-align: center;
-    color: $darkBebote;
-    font-family: $Syne;
-    margin-bottom: 6vh;
-    margin-top: 1vh;
-  }
-
-  .productosCarrito{
-
-    margin-bottom: 1vh;
-    text-align: center;
-    font-family: $Syne;
-
-    .productosCarrito__Img{
-      
-    }
-  
-    .productosCarrito__Titulo{
-      color: $Bebote;
+      font-size: 1.5vh;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-radius: 5px;
+      transition: all 200ms;
+      font-family: $Syne;
+      border: none;
       font-weight: 900;
     }
-  
-    .productosCarrito__Precio{
-      color: $darkBebote;
-    }
-  
-    .productosCarrito__Stock{
-      color: $dimBebote;
-    }
-
-    .productosCarrito__Mod{
-      display: flex;
-      justify-content: space-evenly;
-      
-      
-
-      .productosCarrito__ModCont{
-        font-size: 2.5vh;
-        font-weight: 900;
-      }
-
-      .productosCarrito__ModQuitar{
-        color: $Bebote;
-        font-size: 3vh;
-        cursor: pointer;
-        
-      }
-
-      .productosCarrito__ModAgregar{
-        color: $Bebote;
-        font-size: 3vh;
-        cursor: pointer;
-        
-      }
-    }
-
-    .productosCarrito__Eliminar{
-    max-width: 15em;
-    padding: 5px 1vh;
-    margin: auto;
-    text-decoration: none;
-    background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
-    text-align: center;
-    display: block;
-    margin-bottom: 3vh;
-    color: white;
-    font-size: 2vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    transition: all 200ms;
-    }
 
     .productosCarrito__Eliminar:hover{
       transform: translateY(10px);
@@ -3415,254 +3306,74 @@ color: white;
     text-align: center;
     font-family: $Syne;
     margin-bottom: 3vh;
-  }
-
+    color: $Bebote;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    font-size: 3vh;
+    font-weight: 900;
   
-
-  .vaciarCarrito{
-    max-width: 15em;
-    padding: 6px 1vh;
-    margin: auto;
-    text-decoration: none;
-    background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
-    text-align: center;
-    display: block;
-    margin-bottom: 3vh;
-    color: white;
-    font-size: 2vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    transition: all 200ms;
-
-  }
-}
-}
-
-
-//VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 768PX
-@media only screen and (min-width:768px){
-  #contenedorCarrito{
-
-  #tituloCarrito{
-    text-align: center;
-    color: $darkBebote;
-    font-family: $Syne;
-    margin-bottom: 6vh;
-    margin-top: 1vh;
   }
 
-  .productosCarrito{
+  .contenedorBotones{
 
-    margin-bottom: 1vh;
-    text-align: center;
-    font-family: $Syne;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .productosCarrito__Img{
-      
-    }
-  
-    .productosCarrito__Titulo{
-      color: $Bebote;
+    .vaciarCarrito{
+      max-width: 12em;
+      padding: 1vh;
+      margin: 3vh 1vh;
+      text-decoration: none;
+      background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
+      text-align: center;
+      display: block;
+      color: white;
+      font-size: 2vh;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-radius: 5px;
+      transition: all 200ms;
+      font-family: $Syne;
+      border: none;
       font-weight: 900;
-    }
   
-    .productosCarrito__Precio{
-      color: $darkBebote;
-    }
-  
-    .productosCarrito__Stock{
-      color: $dimBebote;
     }
 
-    .productosCarrito__Mod{
-      display: flex;
-      justify-content: space-evenly;
-      
-      
-
-      .productosCarrito__ModCont{
-        font-size: 2.5vh;
-        font-weight: 900;
-      }
-
-      .productosCarrito__ModQuitar{
-        color: $Bebote;
-        font-size: 3vh;
-        cursor: pointer;
-        
-      }
-
-      .productosCarrito__ModAgregar{
-        color: $Bebote;
-        font-size: 3vh;
-        cursor: pointer;
-        
-      }
-    }
-
-    .productosCarrito__Eliminar{
-    max-width: 15em;
-    padding: 5px 1vh;
-    margin: auto;
-    text-decoration: none;
-    background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
-    text-align: center;
-    display: block;
-    margin-bottom: 3vh;
-    color: white;
-    font-size: 2vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    transition: all 200ms;
-    }
-
-    .productosCarrito__Eliminar:hover{
+    .vaciarCarrito:hover{
       transform: translateY(10px);
       box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
       color: white;
     }
-  }
-  
-  .totalCarrito{
-    text-align: center;
-    font-family: $Syne;
-    margin-bottom: 3vh;
-  }
 
-  
+    .volverCatalogo{
 
-  .vaciarCarrito{
-    max-width: 15em;
-    padding: 6px 1vh;
-    margin: auto;
-    text-decoration: none;
-    background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
-    text-align: center;
-    display: block;
-    margin-bottom: 3vh;
-    color: white;
-    font-size: 2vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    transition: all 200ms;
+      text-decoration: none;
 
-  }
-}
-}
+      .volverCatalogo__Boton{
 
-
-//VISUALIZACIÓN DEL POPUP A PARTIR DE DISPOSTIVOS SUPERIORES A 1024PX
-@media only screen and (min-width:1024px){
-  #contenedorCarrito{
-
-  #tituloCarrito{
-    text-align: center;
-    color: $darkBebote;
-    font-family: $Syne;
-    margin-bottom: 6vh;
-    margin-top: 1vh;
-  }
-
-  .productosCarrito{
-
-    margin-bottom: 1vh;
-    text-align: center;
-    font-family: $Syne;
-
-    .productosCarrito__Img{
-      min-width: 100vh;
-    }
-  
-    .productosCarrito__Titulo{
-      color: $Bebote;
-      font-weight: 900;
-    }
-  
-    .productosCarrito__Precio{
-      color: $darkBebote;
-    }
-  
-    .productosCarrito__Stock{
-      color: $dimBebote;
-    }
-
-    .productosCarrito__Mod{
-      display: flex;
-      justify-content: space-evenly;
-      
-      
-
-      .productosCarrito__ModCont{
-        font-size: 2.5vh;
+        max-width: 12em;
+        padding: 1vh;
+        margin: 3vh 1vh;
+        text-decoration: none;
+        background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
+        text-align: center;
+        display: block;
+        color: white;
+        font-size: 2vh;
+        border-radius: 5px;
+        transition: all 200ms;
+        font-family: $Syne;
+        border: none;
         font-weight: 900;
+
       }
 
-      .productosCarrito__ModQuitar{
-        color: $Bebote;
-        font-size: 3vh;
-        cursor: pointer;
-        
+      .volverCatalogo__Boton:hover{
+        transform: translateY(10px);
+        box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+        color: white;
       }
-
-      .productosCarrito__ModAgregar{
-        color: $Bebote;
-        font-size: 3vh;
-        cursor: pointer;
-        
-      }
-    }
-
-    .productosCarrito__Eliminar{
-    max-width: 15em;
-    padding: 5px 1vh;
-    margin: auto;
-    text-decoration: none;
-    background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
-    text-align: center;
-    display: block;
-    margin-bottom: 3vh;
-    color: white;
-    font-size: 2vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    transition: all 200ms;
-    }
-
-    .productosCarrito__Eliminar:hover{
-      transform: translateY(10px);
-      box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
-      color: white;
+      
     }
   }
-  
-  .totalCarrito{
-    text-align: center;
-    font-family: $Syne;
-    margin-bottom: 3vh;
-  }
-
-  
-
-  .vaciarCarrito{
-    max-width: 15em;
-    padding: 6px 1vh;
-    margin: auto;
-    text-decoration: none;
-    background: linear-gradient(50deg, $Bebote, rgb(235, 118, 163));
-    text-align: center;
-    display: block;
-    margin-bottom: 3vh;
-    color: white;
-    font-size: 2vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    transition: all 200ms;
-
-  }
-} 
 }

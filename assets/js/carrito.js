@@ -12,7 +12,13 @@ const fetchData = async () => {
         const data = await res.json();
         cards(data);
     } catch (error){
-        alert(error);
+        //EN CASO DE PRESENTARSE UN ERROR, SE MUESTRA UN MENSAJE Y SE ACTUALIZA LA PÁGINA
+        Swal.fire({
+            icon: 'error',
+            title: 'Error al cargar el catálogo',
+            text: 'Se actualizará la página'
+        })
+
         location.reload();
     }
 }
@@ -333,8 +339,15 @@ function visualizacionProductosBebes(databaseBebes){
                
                //SE ALMACENA EL CARRITO AL LOCAL STORAGE
                localStorage.setItem('Carrito', JSON.stringify(carrito));
-
-               alert(`Se ha agregado ${databaseBebes.nombre} al carrito`);
+               
+               //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO AÑADIDO
+               Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: `Se agregó ${databaseBebes.nombre} al carrito`,
+                showConfirmButton: false,
+                timer: 1200
+              })
 
 
            }else if(pedidoLocalStorage != null){ 
@@ -363,10 +376,25 @@ function visualizacionProductosBebes(databaseBebes){
                             //SE PASA ESE NUEVO VALOR AL LOCAL STORAGE
                             localStorage.setItem('Carrito', JSON.stringify(carrito));
 
-                            alert(`Se ha agregado ${databaseBebes.nombre} extra al carrito`);
+                            //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO EXTRA AÑADIDO
+                            Swal.fire({
+                             position: 'center',
+                             icon: 'success',
+                             title: `Se agregó ${databaseBebes.nombre} extra al carrito`,
+                             showConfirmButton: false,
+                             timer: 1200
+                           })
 
                         }else if(prop.initial==prop.stock){
-                            alert('NO SE PUEDE AGREGAR MÁS PRODUCTOS AL CARRITO, LÍMITE DE STOCK ALCANZADO')
+                            //AÑADIMOS UNA ALERTA QUE AVISE AL USUARIO QUE SE ALCANZÓ EL LIMITE DE STOCK DEL PRODUCTO SELECCIONADO
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Limite de stock alcanzado',
+                                confirmButtonColor: '#de165c',
+                                text: 'Se agregó al carrito el número de productos máximos disponibles',
+                                footer: `${databaseBebes.nombre} añadidos al carrito: ${databaseBebes.stock}`
+                            })
+                            
                         }
                     }
                 }
@@ -379,7 +407,14 @@ function visualizacionProductosBebes(databaseBebes){
                     //SE ALMACENA EL CARRITO AL LOCAL STORAGE
                     localStorage.setItem('Carrito', JSON.stringify(carrito));
 
-                    alert(`Se ha agregado ${databaseBebes.nombre} al carrito`);
+                    //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO AÑADIDO
+                    Swal.fire({
+                     position: 'center',
+                     icon: 'success',
+                     title: `Se agregó ${databaseBebes.nombre} al carrito`,
+                     showConfirmButton: false,
+                     timer: 1200
+                   })
                 } 
 
             }
@@ -452,7 +487,14 @@ function visualizacionProductosNinas(databaseNinas){
             //SE ALMACENA EL CARRITO AL LOCAL STORAGE
             localStorage.setItem('Carrito', JSON.stringify(carrito));
 
-            alert(`Se ha agregado ${databaseNinas.nombre} al carrito`);
+            //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO AÑADIDO
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: `Se agregó ${databaseNinas.nombre} al carrito`,
+                showConfirmButton: false,
+                timer: 1200
+              })
 
 
         }else if(pedidoLocalStorage != null){ 
@@ -481,9 +523,23 @@ function visualizacionProductosNinas(databaseNinas){
                          //SE PASA ESE NUEVO VALOR AL LOCAL STORAGE
                          localStorage.setItem('Carrito', JSON.stringify(carrito));
 
-                         alert(`Se ha agregado ${databaseNinas.nombre} extra al carrito`);
+                         //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO EXTRA AÑADIDO
+                         Swal.fire({
+                            position: 'center',
+                            icon: 'success',
+                            title: `Se agregó ${databaseNinas.nombre} extra al carrito`,
+                            showConfirmButton: false,
+                            timer: 1200
+                          })
                      }else if(prop.initial==prop.stock){
-                         alert('NO SE PUEDE AGREGAR MÁS PRODUCTOS AL CARRITO, LÍMITE DE STOCK ALCANZADO')
+                         //AÑADIMOS UNA ALERTA QUE AVISE AL USUARIO QUE SE ALCANZÓ EL LIMITE DE STOCK DEL PRODUCTO SELECCIONADO
+                         Swal.fire({
+                            icon: 'error',
+                            title: 'Limite de stock alcanzado',
+                            confirmButtonColor: '#de165c',
+                            text: 'Se agregó al carrito el número de productos máximos disponibles',
+                            footer: `${databaseNinas.nombre} añadidos al carrito: ${databaseNinas.stock}`
+                        })
                      }
                  }
              }
@@ -496,7 +552,14 @@ function visualizacionProductosNinas(databaseNinas){
                  //SE ALMACENA EL CARRITO AL LOCAL STORAGE
                  localStorage.setItem('Carrito', JSON.stringify(carrito));
 
-                 alert(`Se ha agregado ${databaseNinas.nombre} al carrito`);
+                 //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO AÑADIDO
+                 Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: `Se agregó ${databaseNinas.nombre} al carrito`,
+                    showConfirmButton: false,
+                    timer: 1200
+                  })
              } 
 
          }
@@ -566,7 +629,14 @@ function visualizacionProductosAdolescentes(databaseAdolescentes){
             //SE ALMACENA EL CARRITO AL LOCAL STORAGE
             localStorage.setItem('Carrito', JSON.stringify(carrito));
 
-            alert(`Se ha agregado ${databaseAdolescentes.nombre} al carrito`);
+            //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO AÑADIDO
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: `Se agregó ${databaseAdolescentes.nombre} al carrito`,
+                showConfirmButton: false,
+                timer: 1200
+              })
 
 
         }else if(pedidoLocalStorage != null){ 
@@ -595,9 +665,23 @@ function visualizacionProductosAdolescentes(databaseAdolescentes){
                          //SE PASA ESE NUEVO VALOR AL LOCAL STORAGE
                          localStorage.setItem('Carrito', JSON.stringify(carrito));
 
-                         alert(`Se ha agregado ${databaseAdolescentes.nombre} extra al carrito`);
+                         //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO EXTRA AÑADIDO
+                         Swal.fire({
+                            position: 'center',
+                            icon: 'success',
+                            title: `Se agregó ${databaseAdolescentes.nombre} extra al carrito`,
+                            showConfirmButton: false,
+                            timer: 1200
+                          })
                      }else if(prop.initial==prop.stock){
-                         alert('NO SE PUEDE AGREGAR MÁS PRODUCTOS AL CARRITO, LÍMITE DE STOCK ALCANZADO')
+                         //AÑADIMOS UNA ALERTA QUE AVISE AL USUARIO QUE SE ALCANZÓ EL LIMITE DE STOCK DEL PRODUCTO SELECCIONADO
+                         Swal.fire({
+                            icon: 'error',
+                            title: 'Limite de stock alcanzado',
+                            confirmButtonColor: '#de165c',
+                            text: 'Se agregó al carrito el número de productos máximos disponibles',
+                            footer: `${databaseAdolescentes.nombre} añadidos al carrito: ${databaseAdolescentes.stock}`
+                        })
                      }
                  }
              }
@@ -610,7 +694,14 @@ function visualizacionProductosAdolescentes(databaseAdolescentes){
                  //SE ALMACENA EL CARRITO AL LOCAL STORAGE
                  localStorage.setItem('Carrito', JSON.stringify(carrito));
 
-                 alert(`Se ha agregado ${databaseAdolescentes.nombre} al carrito`);
+                 //AÑADIMOS UNA ALERTA QUE DIGA EL PRODUCTO AÑADIDO
+                 Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: `Se agregó ${databaseAdolescentes.nombre} al carrito`,
+                    showConfirmButton: false,
+                    timer: 1200
+                  })
              } 
 
          }
